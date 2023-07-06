@@ -4,7 +4,7 @@ import { BsLinkedin } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <footer className="bg-gray-800 text-white py-8">
+    <footer id="footer" className="bg-gray-800 text-white py-8">
       <div className="container mx-auto">
         <div className="grid grid-cols-1 md:grid-cols-2">
           <div className="flex flex-col items-center md:items-start mb-4 md:mb-0">

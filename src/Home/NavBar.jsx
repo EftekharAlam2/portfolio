@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
 
 const NavBar = () => {
   const navItems = (
@@ -10,13 +11,13 @@ const NavBar = () => {
         <Link to="/about">About</Link>
       </li>
       <li className="text-base">
-        <Link to="/skills">Skills</Link>
+        <HashLink to="/#skills">Skills</HashLink>
       </li>
       <li className="text-base">
         <Link to="/project">Project</Link>
       </li>
       <li className="text-base">
-        <Link to="/contact">Contact</Link>
+        <Link to="#footer">Contact</Link>
       </li>
     </>
   );
