@@ -8,16 +8,16 @@ const NavBar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="text-base">
-        <Link to="/about">About</Link>
+        <HashLink to="/#about">About</HashLink>
       </li>
       <li className="text-base">
         <HashLink to="/#skills">Skills</HashLink>
       </li>
       <li className="text-base">
-        <Link to="/project">Project</Link>
+        <HashLink to="/#projecct">Project</HashLink>
       </li>
       <li className="text-base">
-        <Link to="#footer">Contact</Link>
+        <HashLink to="/#contact">Contact</HashLink>
       </li>
     </>
   );
@@ -43,7 +43,7 @@ const NavBar = () => {
           </label>
           <ul
             tabIndex={0}
-            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
+            className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-300 rounded-box w-52"
           >
             {navItems}
           </ul>

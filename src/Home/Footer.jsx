@@ -45,6 +45,11 @@ const Footer = () => {
             </a>
           </div>
         </div>
+        <div className="text-center mt-4 md:mt-0">
+          <p className="text-sm">
+            &copy; {new Date().getFullYear()} All rights reserved.
+          </p>
+        </div>
       </div>
     </footer>
   );

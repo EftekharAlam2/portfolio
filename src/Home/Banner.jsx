@@ -1,3 +1,5 @@
+import { BiSolidDownload } from "react-icons/bi";
+
 const Banner = () => {
   return (
     <div>
@@ -18,7 +20,9 @@ const Banner = () => {
               Currently, I&apos;m actively seeking an internship opportunity as
               a web developer to apply and further enhance my skills.
             </p>
-            <button className="btn btn-outline btn-accent">Resume</button>
+            <button className="btn btn-outline btn-accent">
+              <BiSolidDownload /> Resume
+            </button>
           </div>
         </div>
       </div>
