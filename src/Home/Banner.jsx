@@ -9,11 +9,14 @@ const Banner = () => {
           />
           <div>
             <h1 className="text-5xl font-bold">MD EFTEKHARUL ALAM</h1>
-            <h1 className="text-3xl font-semibold">Junior Frone</h1>
+            <h1 className="text-2xl font-semibold mt-2">
+              Junior Front-End Web Developer
+            </h1>
             <p className="py-6">
-              Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
-              excepturi exercitationem quasi. In deleniti eaque aut repudiandae
-              et a id nisi.
+              I'm a fourth-year computer science student at Varendra University,
+              deeply passionate about software and web development. Currently,
+              I'm actively seeking an internship opportunity as a web developer
+              to apply and further enhance my skills.
             </p>
             <button className="btn btn-outline btn-accent">Resume</button>
           </div>
