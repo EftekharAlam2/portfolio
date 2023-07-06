@@ -6,12 +6,17 @@ const NavBar = () => {
       <li>
         <Link to="/">Home</Link>
       </li>
-
       <li>
-        <Link to="/instructors">Instructors</Link>
+        <Link to="/about">About</Link>
       </li>
       <li>
-        <Link to="/classes">Classes</Link>
+        <Link to="/skills">Skills</Link>
+      </li>
+      <li>
+        <Link to="/project">Project</Link>
+      </li>
+      <li>
+        <Link to="/contact">Contact</Link>
       </li>
     </>
   );
@@ -42,45 +47,13 @@ const NavBar = () => {
             {navItems}
           </ul>
         </div>
-        <img
-          src="https://i.ibb.co/P1P4vBP/logo.png"
-          alt="Website Logo"
-          className="h-12 w-auto"
-        />
-        <a className="btn btn-ghost normal-case text-xl pb-1">SportCamp</a>
+        <a className="btn btn-ghost normal-case text-xl pb-1">Eftekhar</a>
       </div>
       <div className="navbar-center hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
       </div>
       <div className="navbar-end">
-        {/* <div
-          className="pr-4 relative"
-          onMouseEnter={() => setShowName(true)}
-          onMouseLeave={() => setShowName(false)}
-        >
-          {user && (
-            <img className=" w-12 rounded-full" src={user.photoURL} alt="" />
-          )}
-          {showName && user && (
-            <div className="absolute top-0 left-0 bg-white rounded-md py-1 px-2 shadow-md">
-              {user.displayName}
-            </div>
-          )}
-        </div> */}
-        <div>
-          {/* {user ? (
-            <div>
-              <button className="btn btn-outline btn-accent" onClick={logOut}>
-                Logout
-              </button>
-            </div>
-          ) : (
-            <Link to="/login">
-              <button className="btn btn-outline btn-accent">Login</button>
-            </Link>
-          )} */}
-          <button className="btn btn-outline btn-accent">Login</button>
-        </div>
+        <button className="btn btn-outline btn-accent">Resume</button>
       </div>
     </div>
   );
