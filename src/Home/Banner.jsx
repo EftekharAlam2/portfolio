@@ -10,7 +10,9 @@ const Banner = () => {
             className="max-w-sm rounded-lg"
           />
           <div>
-            <h1 className="text-5xl font-bold">MD EFTEKHARUL ALAM</h1>
+            <h1 className="text-4xl md:text-5xl font-bold">
+              MD EFTEKHARUL ALAM
+            </h1>
             <h1 className="text-2xl font-semibold mt-2">
               Junior Front-End Web Developer
             </h1>
