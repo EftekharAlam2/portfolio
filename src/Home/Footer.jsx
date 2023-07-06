@@ -14,7 +14,7 @@ const Footer = () => {
           </div>
           <div className="flex justify-center md:justify-end">
             <a
-              href="https://www.facebook.com/yourusername"
+              href="https://www.facebook.com/eftekhar.alam.54772?mibextid=ZbWKwL"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white mr-4 hover:text-gray-400"
@@ -24,7 +24,7 @@ const Footer = () => {
               </div>
             </a>
             <a
-              href="https://www.linkedin.com/in/yourusername"
+              href="https://www.linkedin.com/in/md-eftekharul-alam?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BuE0CC3FjRPmtm1RaPd7MGA%3D%3D"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white mr-4 hover:text-gray-400"
@@ -34,7 +34,7 @@ const Footer = () => {
               </div>
             </a>
             <a
-              href="https://github.com/yourusername"
+              href="https://github.com/EftekharAlam2"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white mr-4 hover:text-gray-400"
