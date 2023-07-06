@@ -13,10 +13,10 @@ const Banner = () => {
               Junior Front-End Web Developer
             </h1>
             <p className="py-6">
-              I'm a fourth-year computer science student at Varendra University,
-              deeply passionate about software and web development. Currently,
-              I'm actively seeking an internship opportunity as a web developer
-              to apply and further enhance my skills.
+              I&apos;m a fourth-year computer science student at Varendra
+              University, deeply passionate about software and web development.
+              Currently, I&apos;m actively seeking an internship opportunity as
+              a web developer to apply and further enhance my skills.
             </p>
             <button className="btn btn-outline btn-accent">Resume</button>
           </div>
