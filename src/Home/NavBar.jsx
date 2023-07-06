@@ -3,19 +3,19 @@ import { Link } from "react-router-dom";
 const NavBar = () => {
   const navItems = (
     <>
-      <li>
+      <li className="text-base">
         <Link to="/">Home</Link>
       </li>
-      <li>
+      <li className="text-base">
         <Link to="/about">About</Link>
       </li>
-      <li>
+      <li className="text-base">
         <Link to="/skills">Skills</Link>
       </li>
-      <li>
+      <li className="text-base">
         <Link to="/project">Project</Link>
       </li>
-      <li>
+      <li className="text-base">
         <Link to="/contact">Contact</Link>
       </li>
     </>
