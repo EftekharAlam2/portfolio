@@ -198,16 +198,98 @@ const Project = () => {
           </div>
           <div className="card card-compact w-full bg-base-100 shadow-xl">
             <figure>
-              <img
-                src="/images/stock/photo-1606107557195-0e29a4b5b4aa.jpg"
-                alt="Shoes"
-              />
+              <div className="carousel w-full">
+                <div id="slide5" className="carousel-item relative w-full">
+                  <img
+                    src="https://i.ibb.co/t293K0B/4.png"
+                    className="w-full"
+                  />
+                  <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
+                    <a href="#slide8" className="btn btn-circle">
+                      ❮
+                    </a>
+                    <a href="#slide6" className="btn btn-circle">
+                      ❯
+                    </a>
+                  </div>
+                </div>
+                <div id="slide6" className="carousel-item relative w-full">
+                  <img
+                    src="https://i.ibb.co/8gpT9ZD/5.png"
+                    className="w-full"
+                  />
+                  <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
+                    <a href="#slide5" className="btn btn-circle">
+                      ❮
+                    </a>
+                    <a href="#slide7" className="btn btn-circle">
+                      ❯
+                    </a>
+                  </div>
+                </div>
+                <div id="slide7" className="carousel-item relative w-full">
+                  <img
+                    src="https://i.ibb.co/CWKkWrj/6.png"
+                    className="w-full"
+                  />
+                  <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
+                    <a href="#slide6" className="btn btn-circle">
+                      ❮
+                    </a>
+                    <a href="#slide8" className="btn btn-circle">
+                      ❯
+                    </a>
+                  </div>
+                </div>
+              </div>
             </figure>
             <div className="card-body">
-              <h2 className="card-title">Shoes!</h2>
-              <p>If a dog chews shoes whose shoes does he choose?</p>
-              <div className="card-actions justify-end">
-                <button className="btn btn-primary">Buy Now</button>
+              <h2 className="card-title">GameToys</h2>
+              <p>
+                • Created a dynamic navbar displaying the website logo, name,
+                and navigation options based on user login status, improving
+                navigation and user experience. <br />
+                • Developed a private route for logged-in users to manage their
+                added toys, allowing updates and deletion of toy information,
+                providing a seamless toy management experience. <br />•
+                Implemented a public route to display all toys with a search
+                system based on toy names and pagination for optimal results,
+                facilitating easy exploration and finding desired toys.
+              </p>
+              <div className="mt-3 flex flex-col md:flex-row gap-1">
+                <a
+                  href="https://video-gaming-toys.web.app/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="card-actions">
+                    <button className="btn btn-outline btn-accent btn-sm">
+                      Live Link
+                    </button>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/EftekharAlam2/GameToys-client-side"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="card-actions">
+                    <button className="btn btn-outline btn-accent btn-sm">
+                      Github-Client-Side
+                    </button>
+                  </div>
+                </a>
+                <a
+                  href="https://github.com/EftekharAlam2/GameToys-server-side"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  <div className="card-actions">
+                    <button className="btn btn-outline btn-accent btn-sm">
+                      Github-Server-Side
+                    </button>
+                  </div>
+                </a>
               </div>
             </div>
           </div>
