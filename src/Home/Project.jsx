@@ -246,19 +246,19 @@ const Project = () => {
             <div className="card-body">
               <h2 className="card-title">SportCamp</h2>
               <p>
-                • Created a dynamic navbar displaying the website logo, name,
-                and navigation options based on user login status, improving
-                navigation and user experience. <br />
-                • Developed a private route for logged-in users to manage their
-                added toys, allowing updates and deletion of toy information,
-                providing a seamless toy management experience. <br />•
-                Implemented a public route to display all toys with a search
-                system based on toy names and pagination for optimal results,
-                facilitating easy exploration and finding desired toys.
+                • Navbar and footer present on all pages except the 404 page.
+                Stylish and meaningful footer with website logo/name, copyright,
+                contact information, and address. <br />
+                • Conditional display of profile picture and Dashboard on the
+                navbar based on user sign-in status. Error handling for password
+                requirements on the registration page. <br />• Admin dashboard
+                accessible only to admins. Manage Users page in the admin
+                dashboard displaying user information and buttons to make users
+                instructors or admins.
               </p>
               <div className="mt-3 flex flex-col md:flex-row gap-1">
                 <a
-                  href="https://video-gaming-toys.web.app/"
+                  href="https://practice-all-39805.web.app/"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -269,7 +269,7 @@ const Project = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/EftekharAlam2/GameToys-client-side"
+                  href="https://github.com/EftekharAlam2/SportCamp-Client-Side"
                   target="_blank"
                   rel="noopener noreferrer"
                 >
@@ -280,7 +280,7 @@ const Project = () => {
                   </div>
                 </a>
                 <a
-                  href="https://github.com/EftekharAlam2/GameToys-server-side"
+                  href="https://github.com/EftekharAlam2/SportCamp-Server-Side"
                   target="_blank"
                   rel="noopener noreferrer"
                 >

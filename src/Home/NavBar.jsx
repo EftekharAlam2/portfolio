@@ -48,7 +48,9 @@ const NavBar = () => {
             {navItems}
           </ul>
         </div>
-        <a className="btn btn-ghost normal-case text-xl pb-1">Eftekhar</a>
+        <a className="btn btn-ghost normal-case text-xl pb-1">
+          Md Eftekharul Alam
+        </a>
       </div>
       <div className="navbar-end hidden lg:flex">
         <ul className="menu menu-horizontal px-1">{navItems}</ul>
