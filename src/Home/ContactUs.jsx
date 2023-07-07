@@ -25,7 +25,7 @@ const ContactUs = () => {
                 className="border border-gray-300 rounded-lg py-2 px-4 w-full h-32 resize-none mt-4 focus:outline-none focus:border-indigo-500"
                 placeholder="Your Message"
               ></textarea>
-              <button className="btn btn-outline btn-accent" type="submit">
+              <button className="btn btn-outline btn-accent mt-1" type="submit">
                 Send Message
               </button>
             </form>
