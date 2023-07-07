@@ -199,44 +199,44 @@ const Project = () => {
           <div className="card card-compact w-full bg-base-100 shadow-xl">
             <figure>
               <div className="carousel w-full">
-                <div id="slide5" className="carousel-item relative w-full">
+                <div id="slide9" className="carousel-item relative w-full">
                   <img
-                    src="https://i.ibb.co/t293K0B/4.png"
+                    src="https://i.ibb.co/s5pkHzd/7.png"
                     className="w-full"
                   />
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-                    <a href="#slide8" className="btn btn-circle">
+                    <a href="#slide12" className="btn btn-circle">
                       ❮
                     </a>
-                    <a href="#slide6" className="btn btn-circle">
+                    <a href="#slide10" className="btn btn-circle">
                       ❯
                     </a>
                   </div>
                 </div>
-                <div id="slide6" className="carousel-item relative w-full">
+                <div id="slide10" className="carousel-item relative w-full">
                   <img
-                    src="https://i.ibb.co/8gpT9ZD/5.png"
+                    src="https://i.ibb.co/LrbBMyq/9.png"
                     className="w-full"
                   />
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-                    <a href="#slide5" className="btn btn-circle">
+                    <a href="#slide9" className="btn btn-circle">
                       ❮
                     </a>
-                    <a href="#slide7" className="btn btn-circle">
+                    <a href="#slide11" className="btn btn-circle">
                       ❯
                     </a>
                   </div>
                 </div>
-                <div id="slide7" className="carousel-item relative w-full">
+                <div id="slide11" className="carousel-item relative w-full">
                   <img
-                    src="https://i.ibb.co/CWKkWrj/6.png"
+                    src="https://i.ibb.co/Fhqjbcs/8.png"
                     className="w-full"
                   />
                   <div className="absolute flex justify-between transform -translate-y-1/2 left-1 right-1 top-1/2">
-                    <a href="#slide6" className="btn btn-circle">
+                    <a href="#slide10" className="btn btn-circle">
                       ❮
                     </a>
-                    <a href="#slide8" className="btn btn-circle">
+                    <a href="#slide12" className="btn btn-circle">
                       ❯
                     </a>
                   </div>
@@ -244,7 +244,7 @@ const Project = () => {
               </div>
             </figure>
             <div className="card-body">
-              <h2 className="card-title">GameToys</h2>
+              <h2 className="card-title">SportCamp</h2>
               <p>
                 • Created a dynamic navbar displaying the website logo, name,
                 and navigation options based on user login status, improving
