@@ -9,14 +9,15 @@ const ContactUs = () => {
 
     emailjs
       .sendForm(
-        "YOUR_SERVICE_ID",
-        "YOUR_TEMPLATE_ID",
+        import.meta.env.VITE_YOUR_SERVICE_ID,
+        import.meta.env.VITE_YOUR_TEMPLATE_ID,
         form.current,
-        "YOUR_PUBLIC_KEY"
+        import.meta.env.VITE_YOUR_PUBLIC_KEY
       )
       .then(
         (result) => {
           console.log(result.text);
+          e.target.reset();
         },
         (error) => {
           console.log(error.text);
@@ -38,14 +39,14 @@ const ContactUs = () => {
               <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                 <input
                   type="text"
-                  name="user_name"
+                  name="from_name"
                   id="name"
                   className="border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:border-indigo-500"
                   placeholder="Your Name"
                 />
                 <input
                   type="email"
-                  name="user_email"
+                  name="from_email"
                   id="email"
                   className="border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:border-indigo-500"
                   placeholder="Your Email"
