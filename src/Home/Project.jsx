@@ -2,7 +2,7 @@ import { Bounce } from "react-awesome-reveal";
 
 const Project = () => {
   return (
-    <section className="bg-gray-100 py-16">
+    <section className="bg-gray-100 py-16" id="project">
       <div className="container mx-auto px-2">
         <h2 className="text-4xl font-bold text-gray-800 mb-8">Projects</h2>
         <Bounce>

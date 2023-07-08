@@ -6,7 +6,7 @@ import "react-vertical-timeline-component/style.min.css";
 
 const About = () => {
   return (
-    <div>
+    <div id="about">
       <div>
         <h1 className="text-center my-5 mt-20 text-3xl font-semibold">
           About Me

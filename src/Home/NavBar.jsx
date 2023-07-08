@@ -14,7 +14,7 @@ const NavBar = () => {
         <HashLink to="/#skills">Skills</HashLink>
       </li>
       <li className="text-base">
-        <HashLink to="/#projecct">Project</HashLink>
+        <HashLink to="/#project">Project</HashLink>
       </li>
       <li className="text-base">
         <HashLink to="/#contact">Contact</HashLink>
