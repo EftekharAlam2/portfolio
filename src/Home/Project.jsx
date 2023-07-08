@@ -1,11 +1,11 @@
-import { JackInTheBox } from "react-awesome-reveal";
+import { Bounce } from "react-awesome-reveal";
 
 const Project = () => {
   return (
     <section className="bg-gray-100 py-16">
       <div className="container mx-auto px-2">
         <h2 className="text-4xl font-bold text-gray-800 mb-8">Projects</h2>
-        <JackInTheBox>
+        <Bounce>
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
             <div className="card card-compact w-full bg-base-100 shadow-xl">
               <figure>
@@ -297,7 +297,7 @@ const Project = () => {
               </div>
             </div>
           </div>
-        </JackInTheBox>
+        </Bounce>
       </div>
     </section>
   );

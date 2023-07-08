@@ -1,6 +1,14 @@
 import { BiSolidDownload } from "react-icons/bi";
+import { Flip } from "react-awesome-reveal";
 
 const Banner = () => {
+  const handleDownloadResume = () => {
+    window.open(
+      "https://drive.google.com/file/d/15pwQ3VOspaltEwrwkN9A869z9_L1pPD4/view?usp=drive_link",
+      "_blank"
+    );
+  };
+
   return (
     <div>
       <div className="hero min-h-min">
@@ -8,6 +16,7 @@ const Banner = () => {
           <img
             src="https://i.ibb.co/52JZC9h/MD-EFTEKHARUL-ALAM-removebg.png"
             className="max-w-sm rounded-lg"
+            alt="Profile"
           />
           <div>
             <h1 className="text-4xl md:text-5xl font-bold">
@@ -22,9 +31,14 @@ const Banner = () => {
               Currently, I&apos;m actively seeking an internship opportunity as
               a web developer to apply and further enhance my skills.
             </p>
-            <button className="btn btn-outline btn-accent">
-              <BiSolidDownload /> Resume
-            </button>
+            <Flip>
+              <button
+                className="btn btn-outline btn-accent"
+                onClick={handleDownloadResume}
+              >
+                <BiSolidDownload /> Resume
+              </button>
+            </Flip>
           </div>
         </div>
       </div>
