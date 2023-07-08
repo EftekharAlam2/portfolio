@@ -1,5 +1,6 @@
 import { BiSolidDownload } from "react-icons/bi";
 import { Flip } from "react-awesome-reveal";
+import Typewriter from "typewriter-effect";
 
 const Banner = () => {
   const handleDownloadResume = () => {
@@ -23,7 +24,14 @@ const Banner = () => {
               MD EFTEKHARUL ALAM
             </h1>
             <h1 className="text-2xl font-semibold mt-2">
-              Junior Front-End Web Developer
+              <Typewriter
+                options={{
+                  strings: ["Junior Front-End Web Developer"],
+                  autoStart: true,
+                  loop: true,
+                  delay: 100,
+                }}
+              />
             </h1>
             <p className="py-6">
               I&apos;m a fourth-year computer science student at Varendra
