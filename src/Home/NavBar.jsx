@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import { HashLink } from "react-router-hash-link/dist/react-router-hash-link.cjs.production";
+import { Link as ScrollLink } from "react-scroll";
 
 const NavBar = () => {
   const navItems = (
@@ -8,24 +8,44 @@ const NavBar = () => {
         <Link to="/">Home</Link>
       </li>
       <li className="text-base">
-        <HashLink to="/#about">About</HashLink>
+        <ScrollLink to="about" smooth={true} duration={500}>
+          About
+        </ScrollLink>
       </li>
       <li className="text-base">
-        <HashLink to="/#skills">Skills</HashLink>
+        <ScrollLink to="skills" smooth={true} duration={500}>
+          Skills
+        </ScrollLink>
       </li>
       <li className="text-base">
-        <HashLink to="/#project">Project</HashLink>
+        <ScrollLink to="project" smooth={true} duration={500}>
+          Project
+        </ScrollLink>
       </li>
       <li className="text-base">
-        <HashLink to="/#contact">Contact</HashLink>
+        <ScrollLink to="contact" smooth={true} duration={500}>
+          Contact
+        </ScrollLink>
       </li>
     </>
   );
+
+  const toggleDropdown = () => {
+    const dropdown = document.getElementById("dropdownMenu");
+    if (dropdown) {
+      dropdown.classList.toggle("open");
+    }
+  };
+
   return (
     <div className="navbar h-28 mb-4">
       <div className="navbar-start">
         <div className="dropdown">
-          <label tabIndex={0} className="btn btn-ghost lg:hidden">
+          <button
+            tabIndex={0}
+            className="btn btn-ghost lg:hidden"
+            onClick={toggleDropdown}
+          >
             <svg
               xmlns="http://www.w3.org/2000/svg"
               className="h-5 w-5"
@@ -40,9 +60,9 @@ const NavBar = () => {
                 d="M4 6h16M4 12h8m-8 6h16"
               />
             </svg>
-          </label>
+          </button>
           <ul
-            tabIndex={0}
+            id="dropdownMenu"
             className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-300 rounded-box w-52"
           >
             {navItems}
