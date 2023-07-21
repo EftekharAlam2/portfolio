@@ -15,7 +15,7 @@ const Banner = () => {
       <div className="hero min-h-min">
         <div className="hero-content flex-col lg:flex-row-reverse">
           <img
-            src="https://i.ibb.co/52JZC9h/MD-EFTEKHARUL-ALAM-removebg.png"
+            src="https://i.ibb.co/5LchZk3/ek.png"
             className="max-w-sm rounded-lg"
             alt="Profile"
           />
