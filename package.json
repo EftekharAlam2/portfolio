@@ -22,10 +22,12 @@
     "react-router-dom": "^6.14.1",
     "react-router-hash-link": "^2.4.3",
     "react-scroll": "^1.8.9",
+    "react-tsparticles": "^2.11.0",
     "react-typewriter-effect": "^1.1.0",
     "react-vertical-timeline-component": "^3.6.0",
     "sort-by": "^0.0.2",
     "sweetalert2": "^11.4.8",
+    "tsparticles-slim": "^2.11.0",
     "typewriter-effect": "^2.20.1"
   },
   "devDependencies": {
