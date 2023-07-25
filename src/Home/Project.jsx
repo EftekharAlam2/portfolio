@@ -6,7 +6,7 @@ const Project = () => {
       <div className="container mx-auto px-2">
         <h2 className="text-4xl font-bold text-gray-800 mb-8">Projects</h2>
         <Bounce>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-4">
             <div className="card card-compact w-full bg-base-100 shadow-xl">
               <figure>
                 <div className="carousel w-full">
@@ -199,7 +199,7 @@ const Project = () => {
                 </div>
               </div>
             </div>
-            <div className="card card-compact w-full bg-base-100 shadow-xl">
+            {/* <div className="card card-compact w-full bg-base-100 shadow-xl">
               <figure>
                 <div className="carousel w-full">
                   <div id="slide9" className="carousel-item relative w-full">
@@ -295,7 +295,7 @@ const Project = () => {
                   </a>
                 </div>
               </div>
-            </div>
+            </div> */}
           </div>
         </Bounce>
       </div>
