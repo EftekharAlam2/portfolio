@@ -27,32 +27,36 @@ const ContactUs = () => {
   };
 
   return (
-    <section className="bg-gray-100 py-10" id="contact">
-      <JackInTheBox>
-        <div className="container mx-auto px-4">
-          <div className="md:w-3/5 mx-auto">
-            <div>
+    <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2">
+      <div className="py-8" id="contact">
+        <JackInTheBox>
+          <div className="container mx-auto px-4">
+            <div className="md:w-3/4 lg:w-2/3 mx-auto">
               <form
-                className="bg-white shadow-md rounded-lg p-6"
+                className="bg-white shadow-md rounded-lg p-6 mt-12 flex flex-col gap-8"
                 ref={form}
                 onSubmit={sendEmail}
               >
                 <h3 className="text-xl font-bold mb-4">Get in Touch</h3>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
-                  <input
-                    type="text"
-                    name="from_name"
-                    id="name"
-                    className="border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:border-indigo-500"
-                    placeholder="Your Name"
-                  />
-                  <input
-                    type="email"
-                    name="from_email"
-                    id="email"
-                    className="border border-gray-300 rounded-lg py-2 px-4 focus:outline-none focus:border-indigo-500"
-                    placeholder="Your Email"
-                  />
+                  <div>
+                    <input
+                      type="text"
+                      name="from_name"
+                      id="name"
+                      className="border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:border-indigo-500"
+                      placeholder="Your Name"
+                    />
+                  </div>
+                  <div>
+                    <input
+                      type="email"
+                      name="from_email"
+                      id="email"
+                      className="border border-gray-300 rounded-lg py-2 px-4 w-full focus:outline-none focus:border-indigo-500"
+                      placeholder="Your Email"
+                    />
+                  </div>
                 </div>
                 <textarea
                   id="message"
@@ -61,7 +65,7 @@ const ContactUs = () => {
                   placeholder="Your Message"
                 ></textarea>
                 <button
-                  className="btn btn-outline btn-accent mt-1"
+                  className="btn btn-outline btn-accent mt-4 w-full"
                   type="submit"
                   value="Send"
                 >
@@ -70,9 +74,28 @@ const ContactUs = () => {
               </form>
             </div>
           </div>
+        </JackInTheBox>
+      </div>
+      <div className="py-3">
+        <div className="mapouter">
+          <div className="gmap_canvas">
+            <iframe
+              className="gmap_iframe"
+              width="100%"
+              frameBorder="0"
+              scrolling="no"
+              marginHeight="0"
+              marginWidth="0"
+              src="https://maps.google.com/maps?width=723&amp;height=559&amp;hl=en&amp;q=Monafeer mor, Rajshahi, Bangladesh&amp;t=&amp;z=14&amp;ie=UTF8&amp;iwloc=B&amp;output=embed"
+            ></iframe>
+            <a href="https://connectionsgame.org/">Connections NYT</a>
+          </div>
+          <style>
+            {`.mapouter{position:relative;text-align:right;width:100%;height:559px;}.gmap_canvas{overflow:hidden;background:none!important;width:100%;height:559px;}.gmap_iframe{height:559px!important;}`}
+          </style>
         </div>
-      </JackInTheBox>
-    </section>
+      </div>
+    </div>
   );
 };
 
