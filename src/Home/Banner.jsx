@@ -1,6 +1,8 @@
 import { BiSolidDownload } from "react-icons/bi";
 import { Flip } from "react-awesome-reveal";
 import Typewriter from "typewriter-effect";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/opacity.css";
 
 const Banner = () => {
   const handleDownloadResume = () => {
@@ -14,10 +16,11 @@ const Banner = () => {
     <div>
       <div className="hero min-h-min">
         <div className="hero-content flex-col lg:flex-row-reverse">
-          <img
+          <LazyLoadImage
             src="https://i.ibb.co/5LchZk3/ek.png"
-            className="max-w-sm rounded-lg"
             alt="Profile"
+            effect="opacity"
+            className="max-w-sm rounded-lg"
           />
           <div>
             <h1 className="text-4xl md:text-5xl font-bold">
